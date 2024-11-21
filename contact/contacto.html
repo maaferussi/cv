@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <center>
+        <!--aca redireccionamos a la pagina a la que que queremos acceder al darle al boton-->
+        <form action="hoja.html" method="post">
+            <!--etiqueta de nombre y campo de texto tipo texto-->
+            <label for="Empresa">Empresa:</label>
+            <input type="text" name="Empresa" placeholder="Ingrese el nombre de la empresa">
+            <!--etiqueta de correo y campo de texto tipo email para recibir solo texto vinculado a una cuenta-->
+            <label for="correo">correo:</label>
+            <input type="email" name="correo" placeholder="ejemplo@dominio.com">
+            <label for="Numero">Numero:</label>
+            <input type="number" name="Numero" min="999999999" max="" step="9999999999">
+            <!--boton para contactarnos-->
+            <button type="submit">Contactar</button>
+        </form>
+        </center>
+</body>
+</html>

@@ -1,0 +1,43 @@
+/* aca se le da color al body de la pagina 
+tambien se manejan los estilos de tamaño y 
+disposicion del body */
+body {
+    background-color: #ddb1f0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+}
+/* aca manejamos los estilos de lo que integra el formulario
+las distancias, el estilo, tamaño entre otros*/
+form {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+    width: 100%;
+    max-width: 400px; 
+    padding: 20px;
+
+}
+/* aca le damos un tamaño a los labels, inputs y buttons */
+label, input, button {
+    width: 100%; 
+}
+
+/* aca hacemos que el grupo que llamamos "radio-group" 
+tenga un estilo distinto al que configuramos anteriormente*/
+.radio-group{
+    display: flex;
+    gap: 10px;
+    width: auto;
+}
+/* aca le damos estilo, color y añadimos un puntero
+cuando el mouse pase por encima de el */
+button {
+    padding: 10px;
+    cursor: pointer; 
+    background-color: #c68ddf;
+    color: white; 
+}
+
